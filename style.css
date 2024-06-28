@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffeb3b; /* Yellow color */
+    color: #333; /* Dark text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #f3e5f5; /* Pastel color */
+    padding: 10px 0; /* Adjust padding */
+    text-align: center; /* Center align the text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Display as inline block to center */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    font-weight: bold; /* Bold font weight */
+    font-size: 1.2em; /* Larger font size */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; /* Adjusted width to accommodate two items per row */
+    margin-right: 20px;
+    margin-bottom: 20px; /* Add margin-bottom for spacing between rows */
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+.chatbot-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
