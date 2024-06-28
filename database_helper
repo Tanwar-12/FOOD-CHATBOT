@@ -5,7 +5,7 @@ cnx = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
-    database="pandeyji_eatery"
+    database="tanwar_eatery"
 )
 
 # Function to call the MySQL stored procedure and insert an order item
